@@ -1,0 +1,111 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+      background-color: #ffae00;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #ff4242;
+    font-size: 60px;
+    padding-top: 20px;
+  }
+  
+  .pusheen {
+    position: absolute;
+    height: 150px;
+    right: 10px;
+    bottom: 5px;
+  }
+  
+  .snacks {
+    position: absolute;
+    height: 100px;
+    right: 150px;
+    bottom: 50px;
+  }
+  
+  #calculator {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 10px black solid;
+    border-radius: 5px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  input {
+      outline: 0;
+      position: relative;
+      left: 5px;
+      top: 5px;
+      border: 0;
+      color: #495069;
+      background-color: 4px;
+      width: 60px;
+      height: 50px;
+      float: left;
+      margin: 5px;
+      font-size: 20px;
+      box-shadow: 0 4px rgba(0,0,0,0.2);
+  }
+  
+  .ageInput, .numInput{
+      width: 270px;
+      font-size: 26px;
+      text-align: center;
+      background-color: #f1faeb;
+      float: left;
+  }
+  
+  .clear{
+      float: left;
+      position: relative;
+      display: block;
+      background-color: #ff9fa8;
+      margin-bottom: 15px;
+  }
+  
+  .equals{
+      background-color: #f1ff92;
+      position: relative;
+  }
+  
+  .result {
+    color: black;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    padding-top: 20px;
+  }
+  
+  
+  
+  /* answer hover effect */
+  userInput:hover{
+      width: 270px;
+      font-size: 26px;
+      text-align: center;
+      box-shadow: 0 4px rgba(0,0,0,0.2);
+      background-color: #f1faeb;
+  }
+  
+  
+  /* hover */
+  .equals:hover{
+      background-color: #e7f56b;
+      box-shadow: 0 4px #b7c259;
+  }
+  /* hover */
+  .clear:hover{
+      float: left;
+      display: block;
+      background-color: #f297a0;
+      margin-bottom: 15px;
+      box-shadow: 0 4px #cc7f86;
+  }
